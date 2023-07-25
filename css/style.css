@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+}
+
+.main-box {
+
+    width: 660px;
+    margin: 40px auto;
+    padding: 22px;
+    border-radius: 25px;
+    border: 2px solid orange;
+
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 35px;
+
+}
+p,h2{
+    color: white;
+    padding-top: 20px;
+}
+label{
+    color: white;
+    font-size: 20px;
+    display: block;
+}
+#lastname ,#exp{
+    margin-left: 10px;
+}
+
+ input
+{
+
+    width: 48%;
+    margin: 15px 0;
+    padding: 15px 8px;
+    padding-left: 50px;
+    font-size: 20px;
+    border: none;
+    border: 2px solid orange;
+    background-color: transparent;
+    color: white;
+    outline: none;
+}
+.email input,#img{
+    width: 100%;
+}
+
+input{
+    box-shadow: 0px 0px 10px white inset;
+}
+
+
+.clearfix
+{
+    clear: both;
+}
+.button{
+    background-color: rgb(9,88,157);
+    
+    width: 40%;
+    border: none;
+    padding: 15px;
+    display: block;
+    margin:10px auto;
+    border-radius: 25px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}

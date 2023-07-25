@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>ui</title>
+    <style>
+        #result img {
+            width: 300px;
+            display: block;
+            margin: auto;
+        }
+
+        #result {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+        }
+        #result div{
+            padding: 25px;
+            margin: 10px;
+            border: 2px solid orange;
+            border-radius: 15px;
+        }   
+    </style>
+</head>
+
+<body>
+    <div class="main-box">
+        <form class="form">
+            <h1>Login form</h1>
+            <div class="name">
+                <label for="">Your name</label>
+                <input type="text" placeholder="First name" id="firstname">
+                <input type="text" placeholder="Last name" id="lastname">
+            </div>
+
+            <div class="email">
+                <label for="">Email <address></address></label>
+                <input type="email" placeholder="Enter youe email" id="email">
+            </div>
+            <div class="contactnumber">
+                <label for="">Contact number</label>
+                <input type="number" placeholder="+91 1800 2567 7898" id="number">
+                <input type="text" placeholder="Your age" id="exp">
+            </div>
+            <div class="images">
+                <label for="imageUrl">Your image</label>
+                <input type="url" id="img" placeholder="Enter image url">
+
+            </div>
+            <input type="submit" class="button">
+
+        </form>
+    </div>
+    <div id="result">
+
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
